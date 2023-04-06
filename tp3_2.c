@@ -56,6 +56,7 @@ void promedios (int producc[anios][12])
     printf("-----------------------------------------\n");
 }
 
+// 2d)
 void maxymin (int producc[anios][12])
 {
     int aniomin, aniomax, mesmin, mesmax, min = 50001, max = 0;
