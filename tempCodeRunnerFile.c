@@ -1,2 +1,0 @@
-
-   // puts(nombres[4]);
