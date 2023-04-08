@@ -51,6 +51,8 @@ int main()
         mostrarCL(ClientD + id, id);
     }
 
+    free(ClientD->nombreUsuario);
+    free(ClientD->Productos);
     free(ClientD);
 
     return 0;
