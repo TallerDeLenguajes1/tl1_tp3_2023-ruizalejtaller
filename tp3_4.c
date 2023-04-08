@@ -51,6 +51,7 @@ int main()
         mostrarCL(ClientD + id, id);
     }
 
+    free(ClientD);
 
     return 0;
 }
